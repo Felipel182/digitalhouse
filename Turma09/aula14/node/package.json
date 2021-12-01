@@ -1,0 +1,22 @@
+{
+  "name": "aula14",
+  "version": "1.0.0",
+  "description": "Conteúdo a respeito de módulos na aula14",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "modulos",
+    "aula14",
+    "dh"
+  ],
+  "author": "Rodrigo Sarri",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

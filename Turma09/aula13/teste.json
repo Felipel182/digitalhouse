@@ -1,0 +1,17 @@
+{
+    "nome": "Rodrigo",
+    "sobrenome": "Sarri",
+    "nomeCompleto": "Rodrigo Sarri",
+    "idade": 37,
+    "teste" : {
+
+    },
+    "listas" : [
+        10,
+        20,
+        30,
+        { 
+            
+        }
+    ]
+}
