@@ -34,30 +34,5 @@ class Casa {
 
 }
 
-const pessoa = new Casa();
-
-pessoa.adicionarPessoa('Rodrigo', 37, [10, 5, 6]);
-pessoa.adicionarPessoa('Maria', 30, [1, 3, 6]);
-pessoa.adicionarPessoa('Ana', 25, [10, 10, 10]);
-
-// reduce com objetos
-/*
-const total = pessoa.listaPessoas.reduce((total, valor) => { 
-    return total + valor.idade
-}, 0);
-*/
-
-pessoa.calcularMedia();
-
-//console.log(pessoa.listaPessoas[0]);
-
-pessoa.aumentarFaltas(0);
-pessoa.aumentarFaltas(0);
-
-//console.log(pessoa.listaPessoas[0]);
-//console.log(pessoa.listaPessoas);
-
-//console.log(pessoa.listaPessoas);
-
-module.exports = pessoa;
+module.exports = Casa;
 
